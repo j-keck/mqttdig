@@ -1,0 +1,28 @@
+#+TITLE: mqttdig - a simple web based mqtt frontend
+#+PROPERTY: header-args :eval never-export
+
+[[./doc/screenshot.png]]
+
+* Usage
+
+#+BEGIN_EXAMPLE
+mqttdig 0.1.0
+
+USAGE:
+    mqttdig [FLAGS] [OPTIONS]
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+    -v, --verbose
+
+OPTIONS:
+        --httpd-host <httpd-host>                         [default: 127.0.0.1]
+        --httpd-port <httpd-port>                         [default: 8888]
+        --httpd-webapp-dir <httpd-webapp-dir>            serve static assets from the given directory
+        --mqtt-host <mqtt-host>                           [default: 127.0.0.1]
+        --mqtt-keep-alive <mqtt-keep-alive>               [default: 10s]
+        --mqtt-port <mqtt-port>                           [default: 1883]
+        --mqtt-reconnect-after <mqtt-reconnect-after>     [default: 10s]
+#+END_EXAMPLE
+
